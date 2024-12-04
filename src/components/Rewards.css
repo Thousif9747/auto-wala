@@ -1,0 +1,184 @@
+.rewards-section {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #fff5e6, #fff);
+}
+
+.rewards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.rewards-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.points-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.points-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.points-info i {
+    font-size: 2rem;
+    color: #FFD700;
+}
+
+.points-text {
+    text-align: left;
+}
+
+.points-balance {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.redeem-btn {
+    background: #FFD700;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.redeem-btn:hover {
+    background: #FFA500;
+}
+
+.rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.reward-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+.reward-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff4444;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.reward-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.points-required {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.claim-btn {
+    background: #FFD700;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.claim-btn:hover {
+    background: #FFA500;
+}
+
+.referral-section {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.referral-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.referral-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.referral-info i {
+    font-size: 2rem;
+    color: #FFD700;
+}
+
+.referral-code {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.referral-code input {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 150px;
+    text-align: center;
+}
+
+.copy-btn {
+    background: #FFD700;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.copy-btn:hover {
+    background: #FFA500;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.share-btn {
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.share-btn:hover {
+    background: #ddd;
+}

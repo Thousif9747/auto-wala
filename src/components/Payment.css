@@ -1,0 +1,64 @@
+.payment-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #fff5e6, #fff);
+}
+
+.payment-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.wallet-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.wallet-balance {
+    margin-bottom: 1rem;
+}
+
+.balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.add-money-btn {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    color: black;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.add-money-btn:hover {
+    transform: translateY(-2px);
+}
+
+.payment-methods {
+    margin-top: 2rem;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.payment-option input {
+    margin-right: 0.5rem;
+}
